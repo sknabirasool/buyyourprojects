@@ -10,7 +10,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//logactivity urls
+//logactivity urls for activity
 Route::get('add-to-log', 'DashBoardController@myTestAddToLog');
 Route::get('logActivity', 'DashBoardController@logActivity');
 
