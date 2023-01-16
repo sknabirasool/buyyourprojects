@@ -41,7 +41,7 @@ Route::get('javafullstack/java','JavafullstackController@javaprogramming');
 
 
 
-//Dashboard Urls
+//Admin Dashboard Urls
 Route::get('/admin-home', function () {
     $user=Auth::id();
     $contentdetails=DB::table('users')->where('id',$user)->get();
